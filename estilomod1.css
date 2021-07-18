@@ -1,0 +1,45 @@
+body{
+    background-color: indigo;
+    font: normal 15pt Arial;
+    text-align: center;
+    padding: 30px;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.377);
+    border-radius: 10px;
+    padding: 50PX;
+    width: 500px;
+    margin: auto; /*para centralizar*/
+    box-shadow:  6px 6px 10px rgba(0, 0, 0, 0.719);
+    color: white;
+}
+
+footer{
+    color: white;
+    text-align: center; /*Para centralizar o texto*/
+    font: normal 10pt Arial;
+
+    font-style: italic;
+    
+}
+.fotodia {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./fotomanha.jpg.jpeg);
+}
+.fototarde {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./fototarde2.jpeg);
+}
+.fotonoite {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./fotonoite1.jpeg);
+}
